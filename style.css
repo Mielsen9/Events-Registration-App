@@ -1,0 +1,38 @@
+.events__conteiner {
+  padding: 20px;
+  border: 2px solid #000;
+}
+.events__items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 200px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: gray;
+}
+
+.card a {
+  font-size: 14px;
+  color: blue;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
